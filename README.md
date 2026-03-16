@@ -1,3 +1,7 @@
+![Java](https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-4.0.3-brightgreen?style=for-the-badge&logo=spring)
+![Postman](https://img.shields.io/badge/Postman-Tests_Ready-FF6C37?style=for-the-badge&logo=postman)
+
 # Prueba técnica - API Pólizas
 
 API REST en Spring Boot para gestión de pólizas y riesgos de seguro.
@@ -63,6 +67,11 @@ Importa la colección (ApiPoliza.postman_collection.json)
 Importa el entorno (Polizas.postman_environment.json)
 En Postman selecciona el entorno Polizas en la esquina superior derecha de disparar las peticiones.
 
+## Testing Automático
+El proyecto cuenta con pruebas para garantizar las reglas de negocio, para ejecutarla utilice el siguiente comando:
+```java
+ ./mvnw  test -Dtest=PolizasApiIntegrationTests
+```
 
 ## Reglas de negocio importantes
 
