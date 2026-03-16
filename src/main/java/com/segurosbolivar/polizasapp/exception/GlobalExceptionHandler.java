@@ -1,4 +1,4 @@
-package com.segurosbolivar.polizasapp.excepetion;
+package com.segurosbolivar.polizasapp.exception;
 
 import java.time.LocalDateTime;
 import java.util.HashMap;

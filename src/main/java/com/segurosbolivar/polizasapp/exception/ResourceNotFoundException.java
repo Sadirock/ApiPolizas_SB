@@ -1,4 +1,4 @@
-package com.segurosbolivar.polizasapp.excepetion;
+package com.segurosbolivar.polizasapp.exception;
 
 public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException(String message) {

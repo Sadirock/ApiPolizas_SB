@@ -36,3 +36,117 @@
 2026-03-15T23:00:03.585-05:00  INFO 18608 --- [polizas-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-03-15T23:00:03.587-05:00  INFO 18608 --- [polizas-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2026-03-15T23:00:03.588-05:00  INFO 18608 --- [polizas-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-15T23:43:25.363-05:00  INFO 11180 --- [polizas-api] [main] c.s.polizasapp.PolizasappApplication     : Starting PolizasappApplication using Java 25.0.2 with PID 11180 (C:\xampp\htdocs\SpringBoot\Nueva carpeta\polizasapp\target\classes started by Unknown_U in C:\xampp\htdocs\SpringBoot\Nueva carpeta\polizasapp)
+2026-03-15T23:43:25.365-05:00  INFO 11180 --- [polizas-api] [main] c.s.polizasapp.PolizasappApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-03-15T23:43:25.933-05:00  INFO 11180 --- [polizas-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-15T23:43:25.986-05:00  INFO 11180 --- [polizas-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2026-03-15T23:43:26.346-05:00  INFO 11180 --- [polizas-api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-15T23:43:26.359-05:00  INFO 11180 --- [polizas-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-15T23:43:26.360-05:00  INFO 11180 --- [polizas-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-15T23:43:26.425-05:00  INFO 11180 --- [polizas-api] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1018 ms
+2026-03-15T23:43:26.570-05:00  INFO 11180 --- [polizas-api] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-15T23:43:26.621-05:00  INFO 11180 --- [polizas-api] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-15T23:43:27.070-05:00  INFO 11180 --- [polizas-api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-15T23:43:27.101-05:00  INFO 11180 --- [polizas-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-15T23:43:27.263-05:00  INFO 11180 --- [polizas-api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:polizasdb user=SA
+2026-03-15T23:43:27.265-05:00  INFO 11180 --- [polizas-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-15T23:43:27.286-05:00  WARN 11180 --- [polizas-api] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-15T23:43:27.309-05:00  INFO 11180 --- [polizas-api] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:polizasdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: POLIZASDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-15T23:43:28.100-05:00  INFO 11180 --- [polizas-api] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-15T23:43:28.172-05:00  INFO 11180 --- [polizas-api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-15T23:43:28.201-05:00  WARN 11180 --- [polizas-api] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalExceptionHandler' defined in file [C:\xampp\htdocs\SpringBoot\Nueva carpeta\polizasapp\target\classes\com\segurosbolivar\polizasapp\exception\GlobalExceptionHandler.class]: Failed to instantiate [com.segurosbolivar.polizasapp.exception.GlobalExceptionHandler]: Constructor threw exception
+2026-03-15T23:43:28.202-05:00  INFO 11180 --- [polizas-api] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-15T23:43:28.204-05:00  INFO 11180 --- [polizas-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-15T23:43:28.206-05:00  INFO 11180 --- [polizas-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-15T23:43:28.208-05:00  INFO 11180 --- [polizas-api] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-03-15T23:43:28.214-05:00  INFO 11180 --- [polizas-api] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-15T23:43:28.226-05:00 ERROR 11180 --- [polizas-api] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalExceptionHandler' defined in file [C:\xampp\htdocs\SpringBoot\Nueva carpeta\polizasapp\target\classes\com\segurosbolivar\polizasapp\exception\GlobalExceptionHandler.class]: Failed to instantiate [com.segurosbolivar.polizasapp.exception.GlobalExceptionHandler]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1344) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1231) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.3.jar:4.0.3]
+	at com.segurosbolivar.polizasapp.PolizasappApplication.main(PolizasappApplication.java:13) ~[classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.segurosbolivar.polizasapp.exception.GlobalExceptionHandler]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:220) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-7.0.5.jar:7.0.5]
+	... 19 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The declared package "com.segurosbolivar.polizasapp.excepetion" does not match the expected package "com.segurosbolivar.polizasapp.exception"
+
+	at com.segurosbolivar.polizasapp.exception.GlobalExceptionHandler.<init>(GlobalExceptionHandler.java:1) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:194) ~[spring-beans-7.0.5.jar:7.0.5]
+	... 21 common frames omitted
+
+2026-03-15T23:48:08.633-05:00  INFO 2560 --- [polizas-api] [main] c.s.polizasapp.PolizasappApplication     : Starting PolizasappApplication using Java 25.0.2 with PID 2560 (C:\xampp\htdocs\SpringBoot\Nueva carpeta\polizasapp\target\classes started by Unknown_U in C:\xampp\htdocs\SpringBoot\Nueva carpeta\polizasapp)
+2026-03-15T23:48:08.636-05:00  INFO 2560 --- [polizas-api] [main] c.s.polizasapp.PolizasappApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-03-15T23:48:09.185-05:00  INFO 2560 --- [polizas-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-15T23:48:09.239-05:00  INFO 2560 --- [polizas-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+2026-03-15T23:48:09.602-05:00  INFO 2560 --- [polizas-api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-15T23:48:09.614-05:00  INFO 2560 --- [polizas-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-15T23:48:09.615-05:00  INFO 2560 --- [polizas-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-15T23:48:09.681-05:00  INFO 2560 --- [polizas-api] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1004 ms
+2026-03-15T23:48:09.828-05:00  INFO 2560 --- [polizas-api] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-15T23:48:09.895-05:00  INFO 2560 --- [polizas-api] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-15T23:48:10.354-05:00  INFO 2560 --- [polizas-api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-15T23:48:10.386-05:00  INFO 2560 --- [polizas-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-15T23:48:10.548-05:00  INFO 2560 --- [polizas-api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:polizasdb user=SA
+2026-03-15T23:48:10.550-05:00  INFO 2560 --- [polizas-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-15T23:48:10.572-05:00  WARN 2560 --- [polizas-api] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-15T23:48:10.595-05:00  INFO 2560 --- [polizas-api] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:polizasdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: POLIZASDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-15T23:48:11.399-05:00  INFO 2560 --- [polizas-api] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-15T23:48:11.467-05:00  INFO 2560 --- [polizas-api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-15T23:48:11.542-05:00  INFO 2560 --- [polizas-api] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-15T23:48:11.768-05:00  WARN 2560 --- [polizas-api] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-15T23:48:11.971-05:00  INFO 2560 --- [polizas-api] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:polizasdb'
+2026-03-15T23:48:12.030-05:00  INFO 2560 --- [polizas-api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-03-15T23:48:12.038-05:00  INFO 2560 --- [polizas-api] [main] c.s.polizasapp.PolizasappApplication     : Started PolizasappApplication in 3.787 seconds (process running for 4.176)
+2026-03-15T23:49:59.951-05:00  INFO 2560 --- [polizas-api] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-15T23:49:59.961-05:00  INFO 2560 --- [polizas-api] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-15T23:49:59.964-05:00  INFO 2560 --- [polizas-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-15T23:49:59.966-05:00  INFO 2560 --- [polizas-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-15T23:49:59.967-05:00  INFO 2560 --- [polizas-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
