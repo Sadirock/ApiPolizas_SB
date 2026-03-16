@@ -1,0 +1,38 @@
+2026-03-15T22:58:52.583-05:00  INFO 18608 --- [polizas-api] [main] c.s.polizasapp.PolizasappApplication     : Starting PolizasappApplication using Java 25.0.2 with PID 18608 (C:\xampp\htdocs\SpringBoot\Nueva carpeta\polizasapp\target\classes started by Unknown_U in C:\xampp\htdocs\SpringBoot\Nueva carpeta\polizasapp)
+2026-03-15T22:58:52.586-05:00  INFO 18608 --- [polizas-api] [main] c.s.polizasapp.PolizasappApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-03-15T22:58:53.086-05:00  INFO 18608 --- [polizas-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-15T22:58:53.106-05:00  INFO 18608 --- [polizas-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2026-03-15T22:58:53.466-05:00  INFO 18608 --- [polizas-api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-15T22:58:53.481-05:00  INFO 18608 --- [polizas-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-15T22:58:53.482-05:00  INFO 18608 --- [polizas-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-15T22:58:53.560-05:00  INFO 18608 --- [polizas-api] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 935 ms
+2026-03-15T22:58:53.711-05:00  INFO 18608 --- [polizas-api] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-15T22:58:53.763-05:00  INFO 18608 --- [polizas-api] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-15T22:58:54.260-05:00  INFO 18608 --- [polizas-api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-15T22:58:54.294-05:00  INFO 18608 --- [polizas-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-15T22:58:54.465-05:00  INFO 18608 --- [polizas-api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:polizasdb user=SA
+2026-03-15T22:58:54.467-05:00  INFO 18608 --- [polizas-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-15T22:58:54.489-05:00  WARN 18608 --- [polizas-api] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-15T22:58:54.513-05:00  INFO 18608 --- [polizas-api] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:polizasdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: POLIZASDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-15T22:58:55.302-05:00  INFO 18608 --- [polizas-api] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-15T22:58:55.375-05:00  INFO 18608 --- [polizas-api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-15T22:58:55.424-05:00  WARN 18608 --- [polizas-api] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-15T22:58:55.656-05:00  INFO 18608 --- [polizas-api] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:polizasdb'
+2026-03-15T22:58:55.730-05:00  INFO 18608 --- [polizas-api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-03-15T22:58:55.735-05:00  INFO 18608 --- [polizas-api] [main] c.s.polizasapp.PolizasappApplication     : Started PolizasappApplication in 3.563 seconds (process running for 3.946)
+2026-03-15T23:00:03.572-05:00  INFO 18608 --- [polizas-api] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-15T23:00:03.582-05:00  INFO 18608 --- [polizas-api] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-15T23:00:03.585-05:00  INFO 18608 --- [polizas-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-15T23:00:03.587-05:00  INFO 18608 --- [polizas-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-15T23:00:03.588-05:00  INFO 18608 --- [polizas-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
