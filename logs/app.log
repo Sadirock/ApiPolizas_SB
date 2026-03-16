@@ -164,3 +164,6 @@
 2026-03-16T00:47:33.454-05:00  INFO 26424 --- [polizas-api] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2026-03-16T00:47:33.456-05:00  INFO 26424 --- [polizas-api] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2026-03-16T00:47:33.589-05:00  INFO 26424 --- [polizas-api] [http-nio-8080-exec-2] c.s.p.controller.CoreMockController      : [CORE-MOCK] Evento recibido -> evento='ACTUALIZACION', polizaId=555
+2026-03-16T00:50:03.559-05:00  INFO 26424 --- [polizas-api] [http-nio-8080-exec-5] c.s.p.service.CoreNotificationService    : [CORE-MOCK] Evento enviado al CORE -> evento='CANCELAR_RIESGO', polizaId=2
+2026-03-16T01:02:13.326-05:00  INFO 26424 --- [polizas-api] [http-nio-8080-exec-10] c.s.p.controller.CoreMockController      : [CORE-MOCK] Evento recibido -> evento='ACTUALIZACION', polizaId=555
+2026-03-16T01:04:32.221-05:00  INFO 26424 --- [polizas-api] [http-nio-8080-exec-6] c.s.p.service.CoreNotificationService    : [CORE-MOCK] Evento enviado al CORE -> evento='CANCELACION', polizaId=1

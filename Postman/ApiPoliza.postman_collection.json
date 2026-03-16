@@ -1,0 +1,319 @@
+{
+  "info": {
+    "_postman_id": "9a35235a-c705-43fd-ad0b-8308918e61ed",
+    "name": "ApiPoliza",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "38778921"
+  },
+  "item": [
+    {
+      "name": "General",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{api_key}}",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/polizas",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "polizas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ConQueryParams",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{api_key}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": " {\"descripcion\": \"Robo de equipos\", \"asegurado\": \"Empresa XYZ\"}"
+        },
+        "url": {
+          "raw": "{{base_url}}/polizas?tipo=COLECTIVA&estado=ACTIVA",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "polizas"
+          ],
+          "query": [
+            {
+              "key": "",
+              "value": "123456",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "tipo",
+              "value": "COLECTIVA"
+            },
+            {
+              "key": "estado",
+              "value": "ACTIVA"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "RiesgosxPoliza",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{api_key}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": " {\"descripcion\": \"Robo de equipos\", \"asegurado\": \"Empresa XYZ\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/polizas/2/riesgos",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "polizas",
+            "2",
+            "riesgos"
+          ],
+          "query": [
+            {
+              "key": "",
+              "value": "123456",
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Renovar Poliza",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{api_key}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/polizas/3/renovar",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "polizas",
+            "3",
+            "renovar"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Cancelar Póliza",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{api_key}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/polizas/1/cancelar",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "polizas",
+            "1",
+            "cancelar"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Insertar Riesgo",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{api_key}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": " {\"descripcion\": \"Parqueadero\", \"asegurado\": \"Empresa XYZ\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/polizas/2/riesgos",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "polizas",
+            "2",
+            "riesgos"
+          ],
+          "query": [
+            {
+              "key": "",
+              "value": "123456",
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Cancelar Riesgo",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "123456",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/riesgos/3/cancelar",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "riesgos",
+            "3",
+            "cancelar"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Mock",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{api_key}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"evento\": \"ACTUALIZACION\", \"polizaId\": 555}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/core-mock/evento",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "core-mock",
+            "evento"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
